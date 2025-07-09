@@ -1,0 +1,16 @@
+.container-card{
+    display:flex;
+    max-width: 100%;
+    min-height: 431px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}

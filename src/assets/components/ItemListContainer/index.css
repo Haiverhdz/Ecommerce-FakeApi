@@ -1,0 +1,10 @@
+.item-container{
+    align-items: center;
+    justify-items: center;
+}
+
+.main-ppal{
+    margin-top: 30px;
+    gap: 10px;
+    margin-block-end: 30px;
+}

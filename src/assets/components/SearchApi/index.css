@@ -1,0 +1,10 @@
+.item-container{
+    cursor: pointer;
+}
+
+.container-label{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin: 20px;
+    border: 10px;
+}

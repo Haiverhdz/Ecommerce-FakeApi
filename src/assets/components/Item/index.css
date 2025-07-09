@@ -1,0 +1,51 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    max-height: 450px;
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 1px 1px rgba(0, 0, 0, 0.447);
+    border-radius: 5px 5px 5px 5px;
+    margin: 20px;
+    gap: 8px;
+    transition: 0.5s;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
+
+.card--primary{
+    background-color: white;
+}
+
+.card--secondary{
+    background-color: rgb(155, 155, 155);
+}
+
+.item-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+
+.img{
+    height: 250px;
+    width: 200px;
+    gap: 9px;
+    object-fit: contain;
+}
+
+.card-title{
+    gap: 8px;
+}
+
+.card-price{
+    gap: 8px;
+    
+}
+
+.logo{
+    fill: white;
+    stroke: white;
+}

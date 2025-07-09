@@ -1,0 +1,32 @@
+#title{
+    font-size: 22px;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 45px;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items:center;
+}
+
+.navbar-logo img {
+    height: 110px;
+    margin-right: 10px;
+}
+
+.nav-li{
+    gap:4px;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+}

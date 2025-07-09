@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    gap: 20px;
+    margin-top: 60px;
+    margin-block-end: 50px;
+}
+
+.img-art{
+    max-width: 300px;
+    max-height: 400px;
+}
+
+.detail-art{
+   margin-bottom: 15px;
+}
+
+.card-title{
+    gap: 10px;
+    margin-bottom: 15px;
+    max-width: 400px;
+}
+
+.art-price{
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.art-category{
+    margin: 5px;
+    padding: 2px;
+}
+
