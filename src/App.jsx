@@ -18,7 +18,7 @@ function App() {
         <BrowserRouter>
           <BaseLayout>
             <Routes>
-              <Route exact path='/home' element={<Home/>}/>
+              <Route exact path='/' element={<Home/>}/>
               <Route exact path='/store' element={<Store/>}/>
               <Route exact path='/detail/:id' element={<Detail/>}/>
               <Route exact path='*' element={<NotFound/>}/>
@@ -33,11 +33,3 @@ function App() {
 };
 
 export default App
-
-
-// <Navbar/>
-// <Title heading='h3' text='¡La mejor tienda que encontraras en la web!' />
-// {/* <Counter /> */}
-// {/* <Item title='Item 1' description='Sin descripcion' link={{href:'https://www.pornhub.com', text:'Ir al enlace'}} type="secondary" />
-// <Item title='Wisin' description='DJ' link={{href:'https://www.redtube.com', text:'visitar web'}} type='primary'/> */}
-// <SearchApi/>

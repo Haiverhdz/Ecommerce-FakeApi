@@ -24,7 +24,7 @@ const SearchApi = () => {
       <Title heading="h1" text="¡Busca a tu manera!" />
 
       <div className="container-label">
-        <label>Busca en la web: </label>
+        <label>Buscar: </label>
         <input
           type="text"
           value={searchParam}

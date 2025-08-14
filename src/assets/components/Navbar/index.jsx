@@ -14,9 +14,8 @@ function Navbar() {
             <img className="logo" src={Logo} alt="" />
             <Title heading="h2" text="Haiver's Shop" />
           </div>
-          <NavbarList className="header" label="Home" href="/home" />
+          <NavbarList className="header" label="Home" href="/" />
           <NavbarList className="header" label="Store" href="/store" />
-          <NavbarList className="header" label="Description" href="/description" />
           <NavbarList className="header" label={CartWidget()}  href="/cart" />
         </nav>
       </header>
