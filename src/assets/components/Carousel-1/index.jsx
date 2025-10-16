@@ -41,7 +41,7 @@ const Carousel1 = (id) => {
       <button className="carousel-button prev" onClick={handlePrev}>
         &#10094;
       </button>
-      <div className={`carousel-content ${transition ? "transition" : ""}`}>
+      <div style={{ background: "#145577" }} className={`carousel-content ${transition ? "transition" : ""}`}>
         <div className="divs-content">
           <h3>{currentItem.title}</h3>
           <p>Price: ${currentItem.price}</p>

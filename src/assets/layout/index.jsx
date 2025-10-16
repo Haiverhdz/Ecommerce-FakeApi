@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 const BaseLayout = ({ children }) => {
   return (
     <>
-      <header className="header">
+      <header>
         <Navbar />
       </header>
       {children}

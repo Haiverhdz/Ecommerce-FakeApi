@@ -11,7 +11,7 @@
     transition: 0.5s;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    background: rgba(255, 255, 255, 0.28);
 }
 
 .card-carousel:hover{
